@@ -1,4 +1,4 @@
-package leetcode_747;
+package leetcode_0747;
 
 /**
  * @author lanqilu

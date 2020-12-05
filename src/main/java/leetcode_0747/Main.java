@@ -1,11 +1,11 @@
-package leetcode_747;
+package leetcode_0747;
 
 /**
  * @author lanqilu
  * @date Created in 2020/12/03  23:24
  * @description
  */
-public class Main {
+class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] nums1 = {3, 6, 1, 0};

@@ -1,13 +1,11 @@
-package leetcode_204;
-
-import java.sql.SQLOutput;
+package leetcode_0204;
 
 /**
  * @author lanqilu
  * @date Created in 2020/12/03  22:12
  * @description
  */
-public class Main {
+class Main {
     public static void main(String[] args) {
         SolutionBySieve solutionBySieve = new SolutionBySieve();
         SolutionByEnum solutionByEnum = new SolutionByEnum();

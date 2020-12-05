@@ -1,4 +1,4 @@
-package leetcode_204;
+package leetcode_0204;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,7 +11,7 @@ import java.util.List;
  * <p>
  * 用空间换时间
  */
-public class SolutionByEuler {
+class SolutionByEuler {
     public int countPrimes(int n) {
         List<Integer> primes = new ArrayList<Integer>();
         int[] isPrime = new int[n];

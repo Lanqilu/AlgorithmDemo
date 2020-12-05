@@ -5,7 +5,7 @@ package leetcode_1360;
  * @date Created in 2020/12/03  23:04
  * @description
  */
-public class Main {
+class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
         String date1 = "2019-06-29";

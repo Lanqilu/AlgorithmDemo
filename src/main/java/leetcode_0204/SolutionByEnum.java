@@ -1,4 +1,4 @@
-package leetcode_204;
+package leetcode_0204;
 
 /**
  * @author lanqilu
@@ -6,7 +6,8 @@ package leetcode_204;
  * @description 质数计数
  * 枚举法实现,会超时
  */
-public class SolutionByEnum {
+class SolutionByEnum {
+
     public int countPrimes(int n) {
         int cnt = 0;
         for (int i = 2; i < n; i++) {
