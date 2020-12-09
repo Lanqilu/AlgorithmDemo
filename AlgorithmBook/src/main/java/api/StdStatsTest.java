@@ -9,6 +9,7 @@ import org.junit.Test;
  * @description 数据分析静态方法库的API
  */
 public class StdStatsTest {
+
     @Test
     public void testSize() {
         int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};

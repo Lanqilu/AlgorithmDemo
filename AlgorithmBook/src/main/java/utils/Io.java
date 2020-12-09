@@ -1,5 +1,7 @@
 package utils;
 
+import org.junit.Test;
+
 import java.io.*;
 import java.util.ArrayList;
 
@@ -10,7 +12,11 @@ import java.util.ArrayList;
  */
 public class Io {
     public static void main(String[] args) {
-        readFileByLines("E:\\OneDrive - lanqilu\\我的项目库\\JavaDemo\\AlgorithmBook\\src\\main\\resources\\tinyT.txt");
+        ArrayList<Integer> integers = readFileByLines("E:\\Project\\AlgorithmDemo\\AlgorithmBook\\src\\main\\resources\\tinyT.txt");
+        for (Integer integer : integers) {
+            System.out.print(integer+",");
+        }
+
     }
 
     public static ArrayList<Integer> readFileByLines(String path) {
@@ -32,4 +38,5 @@ public class Io {
         }
         return arrayList;
     }
+
 }
