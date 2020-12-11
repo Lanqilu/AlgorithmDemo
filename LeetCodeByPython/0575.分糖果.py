@@ -17,4 +17,5 @@ def distributeCandies(candies):
         return len(dit)
 
 
-print(distributeCandies([1, 1, 2, 3, 4, 5]))
+if __name__ == '__main__':
+    print(distributeCandies([1, 1, 2, 3, 4, 5]))

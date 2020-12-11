@@ -4,6 +4,7 @@
 @Author  : long
 @File    : 0001.两数之和.py
 """
+from typing import List
 
 """
 题目
@@ -20,9 +21,9 @@
 """
 
 
-class Solution:
+class Solution(object):
     @staticmethod
-    def twoSum(nums: "List[int]", target: "int") -> "List[int]":
+    def two_sum(self, nums: List[int], target: int) -> List[int]:
         # 暴力法 遍历每个元素,并查找是否存在一个值与target-x相等的目标元素
         lens = len(nums)
         j = -1
@@ -42,5 +43,6 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    a = s.twoSum([1, 2, 3, 4, 5, 6], 5)
+    a = s.two_sum([1, 2, 3, 4, 5, 6], 5)
     print(a)
+

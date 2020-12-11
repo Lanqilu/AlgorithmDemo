@@ -1,4 +1,4 @@
-def removeDuplicates(nums):
+def remove_duplicates(nums):
     i = 0
     j = 1
     while True:
@@ -13,7 +13,7 @@ def removeDuplicates(nums):
     print(nums)
 
 
-def removeDuplicates2(nums):
+def remove_duplicates2(nums):
     if len(nums) == 0:
         return 0
     i = 0
@@ -29,4 +29,5 @@ def removeDuplicates2(nums):
     return i + 1
 
 
-removeDuplicates2([1])
+if __name__ == '__main__':
+    remove_duplicates2([1])
