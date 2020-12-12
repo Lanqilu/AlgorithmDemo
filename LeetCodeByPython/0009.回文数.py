@@ -26,6 +26,8 @@ class Solution(object):
     def is_palindrome_simplify(x: int) -> bool:
         return False if x < 0 else (x == int(str(x)[::-1]))
 
+    # TODO 不使用字符串实现判断回文数
+
 
 if __name__ == '__main__':
     s = Solution()
@@ -36,4 +38,3 @@ if __name__ == '__main__':
     print(s.is_palindrome_simplify(121))
     print(s.is_palindrome_simplify(-121))
     print(s.is_palindrome_simplify(12145))
-

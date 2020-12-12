@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AlgorithmDemoByPython/AlgorithmDemoByPython.iml" filepath="$PROJECT_DIR$/AlgorithmDemoByPython/AlgorithmDemoByPython.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCodeByPython/LeetCodeByPython.iml" filepath="$PROJECT_DIR$/LeetCodeByPython/LeetCodeByPython.iml" />
     </modules>
   </component>
