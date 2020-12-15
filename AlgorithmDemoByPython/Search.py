@@ -2,7 +2,7 @@
 """
 @author lanqilu
 @date Created in 2020/12/11  00:30
-@file search.py
+@file Search.py
 @description 线性搜索
 """
 from typing import List
