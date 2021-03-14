@@ -8,6 +8,18 @@ import java.util.Queue;
  * @date Created in 2020/11/14  21:00
  * @description 用队列实现栈
  */
+public class Main {
+
+    public static void main(String[] args) {
+        MyStack obj = new MyStack();
+        obj.push(2);
+        int param_2 = obj.pop();
+        int param_3 = obj.top();
+        boolean param_4 = obj.empty();
+    }
+}
+
+
 class MyStack {
     Queue<Integer> queue1;
     Queue<Integer> queue2;
@@ -60,9 +72,4 @@ class MyStack {
 
 /**
  * Your MyStack object will be instantiated and called as such:
- * MyStack obj = new MyStack();
- * obj.push(x);
- * int param_2 = obj.pop();
- * int param_3 = obj.top();
- * boolean param_4 = obj.empty();
  */

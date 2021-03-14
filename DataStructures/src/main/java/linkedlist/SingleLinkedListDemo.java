@@ -135,11 +135,7 @@ class SingleLinkedList {
         //hea节点不能动故需要一个辅助变量
         HeroNode temp = head;
         //遍历链表找到最后节点
-        while (true) {
-            //找到链表的最后
-            if (temp.next == null) {
-                break;
-            }
+        while (temp.next != null) {
             //如果没有找到就后移temp
             temp = temp.next;
         }
@@ -362,7 +358,7 @@ class SingleLinkedList {
             return;
         }
         //创建一个栈，将各个节点压入栈中
-        Stack<HeroNode> stack = new Stack<HeroNode>();
+        Stack<HeroNode> stack = new Stack<>();
         HeroNode temp = head.next;
         //将链表的所有节点压入栈中
         while (temp != null) {
